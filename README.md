@@ -1,13 +1,5 @@
-# Sample Hardhat Project
-
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
+# 𝗗𝗘𝗦𝗖𝗥𝗜𝗣𝗧𝗜𝗢𝗡
+- Decentralized exchange platform exchanging ETH to DAI
+- The exchange is executed in 2 steps:
+1. ETH is exchanged to USDC using UniswapV3Pool
+2. USDC is exchanged to DAI using Curve.fi
